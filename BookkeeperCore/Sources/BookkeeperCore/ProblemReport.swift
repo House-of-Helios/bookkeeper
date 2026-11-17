@@ -66,10 +66,11 @@ public enum ProblemReport {
             (#"\b[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b"#, "[address]"),                 // bitcoin legacy
             (#"\b[1-9A-HJ-NP-Za-km-z]{32,95}\b"#, "[address]"),                    // base58 (solana, monero…)
             (#"\b(?:\d{1,3}\.){3}\d{1,3}\b"#, "[ip]"),                             // IPv4
-            (#"\b(?=[0-9a-fA-F:]*(?:[a-fA-F]|::))(?:[0-9a-fA-F]{0,4}:){2,7}[0-9a-fA-F]{0,4}\b"#, "[ip]"), // IPv6, not a clock time
+            (#"\b(?:[0-9a-fA-F]{0,4}:){3,7}[0-9a-fA-F]{0,4}\b"#, "[ip]"),           // IPv6, 4+ groups (a clock has 3 at most)
+            (#"\b(?=[0-9a-fA-F:]*(?:[a-fA-F]|::))(?:[0-9a-fA-F]{0,4}:){1,2}[0-9a-fA-F]{0,4}\b"#, "[ip]"), // short IPv6 with a letter or ::
             (#"[-+−]?[$€£]\s?[\d,]+(?:\.\d+)?"#, "[amount]"),                      // money with a sign
             (#"\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b"#, "[amount]"),                    // 1,234.56
-            (#"(?<![\d.])[-+−]?\d+\.\d{2,}(?![.\d])"#, "[amount]"),                 // 12.50, 0.8123, not 2.0.22
+            (#"(?<![\d.])[-+−]?\d+\.\d{2,}(?!\d|\.\d)"#, "[amount]"),                 // 12.50, 0.8123, not 2.0.22
         ]
         for (pattern, with) in rules {
             guard let re = try? NSRegularExpression(pattern: pattern) else { continue }

@@ -17,7 +17,7 @@ final class ProblemReportTests: XCTestCase {
             "0x52908400098527886E0F7030069857D2E4169EE7",
             "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq",
             "7EcDhSYGxXyscszYEp35KHN8vvw3svAuLKTzXwCFLtV",
-            "192.168.1.23", "fe80::1c2b:3a4f:fe5d:6e7f",
+            "192.168.1.23", "fe80::1c2b:3a4f:fe5d:6e7f", "2001:4860:4860:0:0:0:0:8888",
             "$4,506.20", "−$23.18", "1,234.56", "3200.00", "0.8123",
             "helios-mini.local", "my-router.lan", "someone@example.com",
         ]
@@ -29,6 +29,8 @@ final class ProblemReportTests: XCTestCase {
         XCTAssertFalse(report.contains("someone"))
         XCTAssertFalse(report.contains("otherperson"))
         XCTAssertFalse(report.contains("12.50"))
+        XCTAssertTrue(ProblemReport.scrub("balance 12.50.", home: home) == "balance [amount].",
+                      "an amount at the end of a sentence still goes")
     }
 
     /// What the House needs to fix things stays readable.
