@@ -102,7 +102,8 @@ enum SnapshotRenderer {
             let ledger = name.hasPrefix("spending") || name.hasPrefix("transactions") || name == "teach"
                 || name.hasPrefix("budget")
                 || name == "window-spending" || name == "settings-spending"
-            let light = name.hasSuffix("-light")
+            // BOOKKEEPER_SNAPSHOT_LIGHT=1 renders every screen on the light ground (the docs default).
+            let light = name.hasSuffix("-light") || ProcessInfo.processInfo.environment["BOOKKEEPER_SNAPSHOT_LIGHT"] == "1"
             spending.setTheme(light ? .light : (ledger ? .dark : .black))
             let ink = Ink.resolve(spending.settings.theme, systemIsDark: true)
             Look.shared.ink = ink
@@ -163,7 +164,7 @@ enum SnapshotRenderer {
                     budgetParts(spending)
                 case "teach":
                     TeachBankSheet(importer: importer, request: SpendingMock.teachRequest(), rendering: true)
-                        .environment(\.ink, .xmrangeDark)
+                        .environment(\.ink, light ? ink : .xmrangeDark)
                 default:         PortfolioLedger(store: store) { _ in }
                 }
             }
