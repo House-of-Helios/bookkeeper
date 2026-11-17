@@ -9,6 +9,8 @@ Here is what happens the first time you open Bookkeeper.
 - **Crypto** opens your holdings. See [Holdings](04-holdings.md).
 - **Stocks** is dimmed and says "Coming soon". It does not open.
 
+![A first wallet in Crypto: no history yet, one ring of tokens, and a Log portfolio button at the top](img/first-wallet.png)
+
 ## Tor starts in the background
 
 Prices and logos are fetched through Tor, which is bundled inside the app. On a first start Tor has to download its directory, which usually takes a few seconds and can take a minute. Bookkeeper waits for it before asking for anything. While it connects, Settings shows "Connecting to Tor · a first start can take a minute". When it is ready, it shows "Connected through Tor".

@@ -64,6 +64,8 @@ enum SnapshotRenderer {
         // A newer build waiting: the pill in the wordmark's place, its change log, the ring.
         ("update-pill",     CGSize(width: 1440, height: 400)),
         ("update-sheet",    CGSize(width: 480, height: 520)),
+        // The feedback sheet, with made-up facts and log lines.
+        ("report-light",    CGSize(width: 560, height: 800)),
         ("update-ring",     CGSize(width: 1440, height: 400)),
         // Income on the same ring, and Settings from the Spending side with its file log.
         ("spending-income",   CGSize(width: 1440, height: 1150)),
@@ -130,6 +132,9 @@ enum SnapshotRenderer {
                 case "update-sheet":
                     UpdateSheet(update: Self.sampleUpdate, current: "2.0.12", rendering: true, onLater: {}, onInstall: {})
                         .environment(\.ink, Ink.resolve(spending.settings.theme, systemIsDark: true))
+                case "report-light":
+                    ReportSheet(facts: Self.sampleFacts, rendering: true, onClose: {})
+                        .environment(\.ink, ink)
                 case "update-ring":
                     let _ = Updater.shared.showForSnapshot(Self.sampleUpdate, progress: 0.62)
                     RootView(store: store, spending: spending, importer: importer, screen: .spending, rendering: true,
@@ -278,4 +283,12 @@ extension SnapshotRenderer {
         version: "2.0.14", notes: "Updates fetch ahead and install from the Bookkeeper pill.",
         history: [UpdateNote(version: "2.0.14", notes: "Updates fetch ahead and install from the Bookkeeper pill."),
                   UpdateNote(version: "2.0.13", notes: "Updates install faster.")])
+}
+
+extension SnapshotRenderer {
+    static let sampleFacts = ProblemReport.Facts(
+        version: "2.0.22", macOS: "15.1.0", arch: "arm64", theme: "light", torOn: true, wallets: 3, banks: 2,
+        logLines: ["12:01:03 launch 2.0.22", "12:01:04 tor starting", "12:01:19 tor ready",
+                   "12:01:20 prices fetched 41 tokens", "12:02:44 save failed: disk full"],
+        note: "The chart stayed empty after I added a wallet.")
 }

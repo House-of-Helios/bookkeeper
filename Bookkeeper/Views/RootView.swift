@@ -96,11 +96,18 @@ enum Mode: String, CaseIterable, Identifiable {
 /// narrowing window means the sidebar should collapse — so resizing the app made the
 /// tabs vanish with no way to bring them back. It became a fixed left rail instead, and
 /// then this: a dock that never collapses because it was never a sidebar to begin with.
+struct ReportRequest: Identifiable {
+    let id = UUID()
+    var note = ""
+}
+
 struct RootView: View {
     @State private var screen: Screen
     @State private var status: UpdateChecker.Status = .offline(why: "")
     /// The change log on screen, opened from the update pill.
     @State private var changelog: UpdateInfo?
+    /// The report sheet, from Settings or after a run that ended badly.
+    @State private var report: ReportRequest?
     private var updater: Updater { .shared }
     /// Transactions' search + filter, kept here so Spending's review pill can open that
     /// screen already filtered to To review.
@@ -377,7 +384,7 @@ struct RootView: View {
                 BudgetView(store: spending, rendering: rendering)
             case .stocks:    StocksSoon()
             case .crypto2:   CryptoTwoView(store: store, rendering: rendering).environment(\.ink, ink)
-            case .settings:  SettingsView(store: store, mode: mode, spending: spending, importer: importer)
+            case .settings:  SettingsView(store: store, mode: mode, spending: spending, importer: importer) { report = ReportRequest() }
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -420,6 +427,17 @@ struct RootView: View {
         .onAppear { sayFailure(spending.saveFailure) }
         // An import from the menu while on a crypto screen lands on the ledger.
         .onChange(of: importer.generation) { _, _ in if !screen.isLedger { screen = .spending } }
+        .sheet(item: $report) { r in
+            ReportSheet(facts: ReportSheet.facts(store: store, spending: spending, note: r.note)) { report = nil }
+                .environment(\.ink, ink)
+                .environment(\.colorScheme, ink.colorScheme)
+        }
+        .onChange(of: opening) { _, now in
+            // The landing has settled: say so if the last run did not end cleanly.
+            guard now == .landing, !rendering, LastRun.endedBadly else { return }
+            LastRun.endedBadly = false
+            report = ReportRequest(note: "Bookkeeper closed unexpectedly last time.")
+        }
         .sheet(item: $changelog) { u in
             UpdateSheet(update: u, current: Self.currentVersion, rendering: rendering) {
                 changelog = nil

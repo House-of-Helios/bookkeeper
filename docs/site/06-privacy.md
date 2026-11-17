@@ -2,6 +2,8 @@
 
 Bookkeeper has no account, no analytics, no ads and no AI. This page lists everything that leaves your Mac, and says what does not.
 
+![What leaves your Mac and what never does: Banking stays on the Mac; only coin names go out, through Tor, to four named hosts](img/privacy-map.png)
+
 ## What leaves the Mac
 
 Every lookup goes through Tor, which is bundled inside the app ([Arti](https://gitlab.torproject.org/tpo/core/arti), the Tor Project's Rust client). The sites below see a Tor exit, not your IP address.

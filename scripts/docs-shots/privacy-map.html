@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8"><title>What leaves the Mac</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:680px;background:#faf6ee;font:15px Jost,Helvetica,sans-serif;color:#2b2a28;padding:44px 52px;display:grid;grid-template-columns:400px 150px 1fr;gap:0 28px;align-items:center}
+h1{grid-column:1/-1;font:500 30px Fraunces,serif;margin-bottom:28px}
+.mac{border:1.5px solid #2b2a28;border-radius:22px;padding:22px 24px;background:#fffdf8;height:440px;display:flex;flex-direction:column;gap:14px}
+.mac b{font:500 20px Fraunces,serif}
+.zone{border-radius:14px;padding:14px 16px}
+.bank{background:#eef3e4}
+.crypto{background:#f6ead9}
+.zone h3{font:600 14px Jost;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.zone p{color:#5d5a55;line-height:1.4}
+.stay{margin-top:auto;font-size:13px;color:#5d5a55}
+.tor{display:flex;flex-direction:column;align-items:center;gap:10px;color:#6d4aa6;text-align:center}
+.tor .ring{width:96px;height:96px;border-radius:50%;border:10px solid #8a63c9;box-shadow:inset 0 0 0 8px #d9c9f1,0 0 0 8px #efe6fb}
+.tor small{color:#5d5a55;font-size:13px;line-height:1.35}
+.hosts{display:flex;flex-direction:column;gap:12px}
+.h{background:#fff;border:1px solid #e3ddd1;border-radius:14px;padding:12px 16px;display:grid;grid-template-columns:230px 1fr;gap:12px;align-items:baseline}
+.h code{font:500 14px ui-monospace,Menlo,monospace}
+.h span{color:#5d5a55}
+.wall{position:relative}
+.arrow{height:2px;background:#8a63c9;width:100%;position:relative}
+.arrow:after{content:"";position:absolute;right:-2px;top:-5px;border:6px solid transparent;border-left:9px solid #8a63c9}
+.never{grid-column:1/-1;margin-top:24px;font-size:14px;color:#5d5a55}
+.never em{font-style:normal;color:#2b2a28;font-weight:500}
+</style>
+<h1>What leaves your Mac, and what never does</h1>
+<div class="mac">
+  <b>Your Mac</b>
+  <div class="zone bank"><h3>Banking</h3><p>Your CSVs, lines, merchants and rules. Read here, kept here. Never goes online.</p></div>
+  <div class="zone crypto"><h3>Crypto</h3><p>Wallet names and amounts you typed. Only the <em>names of coins</em> go out, to be priced.</p></div>
+  <div class="stay">~/Library/Application Support/Bookkeeper/ — plain files you can read and back up.</div>
+</div>
+<div class="tor"><div class="arrow"></div><div class="ring"></div><b>Tor</b><small>bundled inside the app.<br>Sites see a Tor exit,<br>not your address.</small><div class="arrow"></div></div>
+<div class="hosts">
+  <div class="h"><code>coins.llama.fi</code><span>prices and price history</span></div>
+  <div class="h"><code>token-icons.llamao.fi</code><span>token logos</span></div>
+  <div class="h"><code>api.coingecko.com</code><span>a few long-tail coins; your demo key only if you added one</span></div>
+  <div class="h"><code>github.com</code><span>is there a newer Bookkeeper? at most once an hour</span></div>
+</div>
+<div class="never">Never sent, to anyone: <em>bank data · wallet amounts · addresses · keys · analytics</em>. No account to make.</div>

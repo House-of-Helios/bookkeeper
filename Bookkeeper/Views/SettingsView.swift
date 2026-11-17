@@ -9,6 +9,8 @@ struct SettingsView: View {
     var mode: Mode = .crypto
     var spending: SpendingStore? = nil
     var importer: SpendingImporter? = nil
+    /// Opens the report sheet; the window that hosts Settings owns the sheet.
+    var onFeedback: (() -> Void)? = nil
 
     @State private var coingeckoKey = ""
     @State private var hiddenExpanded = false
@@ -28,6 +30,7 @@ struct SettingsView: View {
             VStack(alignment: .leading, spacing: 28) {
                 if mode == .crypto || mode == .crypto2 { cryptoSections; HistorySection(store: store); TorSection() } else if mode == .spending { spendingSections }
                 if let spending { appearanceSection(spending); textSizeSection(spending) }
+                if let onFeedback { feedbackSection(onFeedback) }
             }
             .padding(28)
             .frame(maxWidth: 640)
@@ -104,6 +107,26 @@ struct SettingsView: View {
                  : "Bookkeeper stays in the mode picked with the pill at the top right, whatever your Mac does.")
                 .font(HouseFont.jost(11.5)).foregroundStyle(Look.shared.ink.muted)
                 .fixedSize(horizontal: false, vertical: true)
+        }
+    }
+
+    // MARK: - Feedback
+
+    private func feedbackSection(_ open: @escaping () -> Void) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            sectionTitle("FEEDBACK")
+            HStack(spacing: 12) {
+                Text("Something wrong, or an idea").font(HouseFont.jost(13)).foregroundStyle(Look.shared.ink.text)
+                Spacer()
+                Button(action: open) {
+                    Text("Send feedback…").font(HouseFont.jost(12.5)).foregroundStyle(Look.shared.ink.text)
+                        .padding(.horizontal, 14).padding(.vertical, 6)
+                        .background(Look.shared.ink.pill, in: Capsule())
+                }
+                .buttonStyle(.plain)
+            }
+            Text("You read the whole report first, and nothing goes unless you send it.")
+                .font(HouseFont.jost(11.5)).foregroundStyle(Look.shared.ink.muted)
         }
     }
 

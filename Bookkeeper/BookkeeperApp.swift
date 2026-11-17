@@ -21,6 +21,7 @@ struct BookkeeperApp: App {
         // the data folder untouched.
         if snapshotDirectory == nil {
             DataRoot.prepareForLaunch()
+            LastRun.begin()
         }
         store = PortfolioStore.live()
 

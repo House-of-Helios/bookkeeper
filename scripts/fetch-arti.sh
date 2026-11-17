@@ -19,3 +19,16 @@ fi
 mkdir -p vendor
 cp "$SRC" vendor/arti.tmp && chmod 755 vendor/arti.tmp && mv -f vendor/arti.tmp vendor/arti
 echo "🧅 vendor/arti ← $WANT ($(lipo -archs vendor/arti))"
+
+# house-report: the House's one problem-report sender (XMRange/crates/house-report, built by
+# XMRange/tools/build-house-report.sh). Report on stdin → NIP-59 gift wrap to the House key →
+# Nostr relays, only through the loopback SOCKS port it is given. Pinned by checksum.
+HR_SRC="${HOUSE_REPORT_SRC:-$HOME/HouseOfHelios/XMRange/vendor/universal/house-report}"
+HR_SHA="b3c0b98597f1eb8fcbee026bd1e8fb47f8d39d84c88d959af2d895132404660a"   # house-report 0.1.0
+[ -x "$HR_SRC" ] || { echo "❌ no house-report at $HR_SRC — build it with XMRange/tools/build-house-report.sh"; exit 1; }
+[ "$(shasum -a 256 "$HR_SRC" | cut -d' ' -f1)" = "$HR_SHA" ] || { echo "❌ $HR_SRC is not house-report 0.1.0 (checksum)"; exit 1; }
+if otool -L "$HR_SRC" | grep -E "^\s+/" | grep -v -e "^\s*/usr/lib/" -e "^\s*/System/Library/"; then
+  echo "❌ house-report links a non-system library"; exit 1
+fi
+cp "$HR_SRC" vendor/house-report.tmp && chmod 755 vendor/house-report.tmp && mv -f vendor/house-report.tmp vendor/house-report
+echo "📮 vendor/house-report ← 0.1.0 ($(lipo -archs vendor/house-report))"

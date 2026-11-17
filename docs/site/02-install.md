@@ -19,6 +19,8 @@ You only have to do this once.
 2. Open System Settings, then Privacy & Security.
 3. Scroll down to the message about Bookkeeper and click **Open Anyway**, then confirm.
 
+![System Settings, Privacy & Security: "Bookkeeper" was blocked to protect your Mac, with the Open Anyway button beside it](img/open-anyway.png)
+
 **On macOS 14: right-click**
 
 1. In Applications, right-click `Bookkeeper.app`.
