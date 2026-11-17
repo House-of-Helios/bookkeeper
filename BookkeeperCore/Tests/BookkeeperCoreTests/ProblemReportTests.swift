@@ -53,4 +53,59 @@ final class ProblemReportTests: XCTestCase {
         XCTAssertFalse(report.contains("line 60\n"))
         XCTAssertTrue(report.contains("Last \(ProblemReport.logLimit) log lines"))
     }
+
+    // MARK: - The docs' worked example
+
+    /// What the app saw: a report with a private thing of every kind planted in it.
+    static let exampleFacts = ProblemReport.Facts(
+        version: "2.0.23", macOS: "15.2", arch: "arm64", theme: "light", torOn: true,
+        wallets: 3, banks: 2,
+        logLines: [
+            "2026-11-17T12:01:03Z  launch 2.0.23",
+            "2026-11-17T12:01:19Z  tor ready",
+            "2026-11-17T12:02:44Z  price lookup for 0x52908400098527886E0F7030069857D2E4169EE7 failed",
+            "2026-11-17T12:02:45Z  save failed: /Users/jane/Library/Application Support/Bookkeeper/wallets.txt",
+            "2026-11-17T12:02:46Z  peer 192.168.1.23 on janes-macbook.local refused",
+        ],
+        note: "Balance showed $4,506.20 then 0. My e-mail is jane@example.com, wallet bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq.")
+
+    static let exampleHome = "/Users/jane"
+
+    static func exampleInput() -> String {
+        let f = exampleFacts
+        return """
+        version \(f.version) · macOS \(f.macOS) · \(f.arch) · \(f.theme) · Tor \(f.torOn ? "on" : "off") · wallets \(f.wallets) · banks \(f.banks)
+
+        note:
+        \(f.note)
+
+        log:
+        \(f.logLines.joined(separator: "\n"))
+
+        """
+    }
+
+    /// docs/site/examples/ holds the input and the exact text Send hands the sender, made by
+    /// this code. Stale copies fail here; BOOKKEEPER_WRITE_EXAMPLES=1 rewrites them.
+    func testDocsExampleIsCurrent() throws {
+        let dir = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+            .deletingLastPathComponent().appendingPathComponent("docs/site/examples")
+        let sent = ProblemReport.build(Self.exampleFacts, home: Self.exampleHome)
+        let input = Self.exampleInput()
+        for planted in ["0x52908400098527886E0F7030069857D2E4169EE7", "jane", "192.168.1.23",
+                        "janes-macbook.local", "4,506.20", "example.com", "bc1qar0srrr7"] {
+            XCTAssertTrue(input.contains(planted), "the example must plant \(planted)")
+            XCTAssertFalse(sent.contains(planted), "the example leaks \(planted)")
+        }
+        if ProcessInfo.processInfo.environment["BOOKKEEPER_WRITE_EXAMPLES"] == "1" {
+            try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+            try input.write(to: dir.appendingPathComponent("report-input.txt"), atomically: true, encoding: .utf8)
+            try sent.write(to: dir.appendingPathComponent("report-sent.txt"), atomically: true, encoding: .utf8)
+        }
+        XCTAssertEqual(try String(contentsOf: dir.appendingPathComponent("report-input.txt"), encoding: .utf8), input,
+                       "docs/site/examples is stale: run with BOOKKEEPER_WRITE_EXAMPLES=1")
+        XCTAssertEqual(try String(contentsOf: dir.appendingPathComponent("report-sent.txt"), encoding: .utf8), sent,
+                       "docs/site/examples is stale: run with BOOKKEEPER_WRITE_EXAMPLES=1")
+    }
 }

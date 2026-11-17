@@ -1,4 +1,4 @@
-# Report a problem
+# Problem reports
 
 Something wrong, or an idea? Bookkeeper can write the report for you, show you every word of it, and send it only if you say so.
 
@@ -13,9 +13,19 @@ Something wrong, or an idea? Bookkeeper can write the report for you, show you e
 
 ## What a report holds
 
-The Bookkeeper and macOS versions, the kind of Mac, the look, whether Tor is on, how many wallets and banks you have (counts only), the last 40 lines of Bookkeeper's own log, and your note.
+The Bookkeeper and macOS versions, the kind of Mac, the look, whether Tor is on, how many wallets and banks you have (counts only), the last 40 lines of Bookkeeper's own log (if it has written any), and your note.
 
-Before you see it, Bookkeeper takes out home folder names, wallet addresses, amounts, IP addresses, e-mail addresses and the names of your own machines. Bank lines are never put in.
+Before you see it, Bookkeeper takes out home folder names, wallet addresses, amounts, IP addresses, e-mail addresses and the names of your own machines. Bank lines are never put in. Names you type into the note yourself, such as a shop, are yours: the box shows them, and you can delete them before you press Send.
+
+## See it for yourself
+
+Below is one report with a private thing of every kind planted in it: a wallet address, a bitcoin address, an amount, an e-mail address, a home folder, an IP address and a machine name. On the left is what the app saw. On the right is what Send hands the sender.
+
+![One report before and after: the wallet, bitcoin address, amount, e-mail, home folder, IP address and machine name on the left are each replaced on the right by a stand-in such as [address] or [ip]](img/report-compare.png)
+
+Bookkeeper's own code made both sides. The two files are in the repository, [`docs/site/examples/report-input.txt`](https://github.com/House-of-Helios/bookkeeper/blob/main/docs/site/examples/report-input.txt) and [`report-sent.txt`](https://github.com/House-of-Helios/bookkeeper/blob/main/docs/site/examples/report-sent.txt). A test checks them against the code every time, and fails if either one is out of date.
+
+**What you see in the box is exactly what is sent, byte for byte.** Nothing is added or changed after you press Send. The sender is `house-report`, and its source is public: [House-of-Helios/xmrange, crates/house-report](https://github.com/House-of-Helios/xmrange/tree/main/crates/house-report).
 
 ## Where it goes
 
