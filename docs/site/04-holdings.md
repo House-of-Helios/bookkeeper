@@ -32,6 +32,8 @@ If the coin lives on more than one network, Bookkeeper asks which. To change an 
 
 If the sites cannot be reached at that moment, the box says so ("Couldn't reach the price sites just now") rather than telling you the coin does not exist.
 
+![Crypto: every token in one ring, wallets around the outside, values and shares beside it](img/crypto2.png)
+
 ## Prices and logos
 
 - Prices and 24-hour changes come from DefiLlama. No key is needed.

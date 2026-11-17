@@ -59,6 +59,8 @@ Bank lines are shouted in capitals and padded with numbers. Open a line and give
 
 The original text from the bank stays visible in the line's detail ("from the bank: …").
 
+![One category opened: its months as bars, its merchants as slices, the latest lines with the bank's own text under each name](img/spending-drill.png)
+
 ## Start over
 
 Settings, in Banking, has **Start over…**. It deletes every bank file, entry, name and rule on this Mac. Crypto is not touched. It cannot be undone.
