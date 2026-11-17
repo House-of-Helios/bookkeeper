@@ -13,3 +13,7 @@ _Screenshots/
 .playwright-mcp/
 _DevData/
 vendor/
+
+# Problem reports: this app's private report key and the reports collected with it. Never in git.
+_Reports/
+_Inbox/

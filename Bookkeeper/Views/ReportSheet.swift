@@ -16,6 +16,9 @@ struct ReportSheet: View {
     /// What `build` last produced, so a typed-over report is not overwritten by the note.
     @State private var built: String
     @State private var copied = false
+    @State private var sending = false
+    @State private var sent: Int?
+    @State private var failure: String?
 
     static let width: CGFloat = 560
 
@@ -66,15 +69,19 @@ struct ReportSheet: View {
                 }
                 .buttonStyle(.plain)
                 .keyboardShortcut(.cancelAction)
-                // Not built yet: ReportSender.send(text:) takes this over.
-                Text("Send").font(HouseFont.jost(14, 600)).foregroundStyle(.white)
-                    .padding(.horizontal, 18).padding(.vertical, 10)
-                    .background(RootView.updateGreen, in: Capsule())
-                    .opacity(0.35)
+                Button(action: send) {
+                    Text(sending ? "Sending…" : sent != nil ? "Sent" : "Send")
+                        .font(HouseFont.jost(14, 600)).foregroundStyle(.white)
+                        .padding(.horizontal, 18).padding(.vertical, 10)
+                        .background(RootView.updateGreen, in: Capsule())
+                        .opacity(ReportSender.ready && !sending && sent == nil ? 1 : 0.35)
+                }
+                .buttonStyle(.plain)
+                .disabled(!ReportSender.ready || sending || sent != nil)
             }
             .padding(.top, 20)
-            Text("Sending arrives in the next version. Until then, Copy or Save and pass it on.")
-                .font(HouseFont.jost(11.5)).foregroundStyle(ink.faint)
+            Text(footnote)
+                .font(HouseFont.jost(11.5)).foregroundStyle(failure == nil ? ink.faint : ink.warm)
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 .padding(.top, 8)
@@ -86,6 +93,26 @@ struct ReportSheet: View {
             guard text == built else { return }
             var f = facts; f.note = n
             built = ProblemReport.build(f); text = built
+        }
+    }
+
+    private var footnote: String {
+        if let failure { return failure }
+        if let sent { return "Sent, sealed for the House, through Tor to \(sent) relay\(sent == 1 ? "" : "s"). Thank you." }
+        if sending { return "Through Tor; this can take a minute." }
+        return ReportSender.ready ? "Send seals it so only the House can read it, and sends it through Tor."
+                                  : "Sending arrives in the next version. Until then, Copy or Save and pass it on."
+    }
+
+    private func send() {
+        sending = true; failure = nil
+        let kind = facts.note.hasPrefix("Bookkeeper closed unexpectedly") ? "crash" : "problem"
+        Task {
+            switch await ReportSender.send(text: text, kind: kind, version: facts.version) {
+            case .success(let n): sent = n
+            case .failure(let f): failure = f.why
+            }
+            sending = false
         }
     }
 

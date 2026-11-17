@@ -13,7 +13,7 @@ cd "$(dirname "$0")/.."
 
 REPO="House-of-Helios/bookkeeper"
 # Working notes, research, reference images, retired scripts and the agent's own instructions.
-PRIVATE=(_Plan _Research CLAUDE.md zerion.png $'Icon\r' scripts/_Past)
+PRIVATE=(_Plan _Research CLAUDE.md zerion.png $'Icon\r' scripts/_Past _Reports _Inbox)
 
 [ -z "$(git status --porcelain)" ] || { echo "❌ uncommitted changes — commit first"; exit 1; }
 git remote get-url origin >/dev/null 2>&1 || git remote add origin "https://github.com/$REPO.git"

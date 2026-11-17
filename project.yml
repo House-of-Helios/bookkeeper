@@ -38,14 +38,27 @@ targets:
           else
             echo "warning: vendor/arti missing — this Debug build has no Tor"
           fi
+      # The House's problem-report sender rides beside Arti the same way (scripts/fetch-arti.sh).
+      # Optional: without it Send stays dimmed, and Copy and Save still work.
+      - name: Bundle house-report
+        basedOnDependencyAnalysis: false
+        script: |
+          SRC="$SRCROOT/vendor/house-report"
+          DEST="$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/house-report"
+          if [ -x "$SRC" ]; then
+            cp "$SRC" "$DEST" && chmod 755 "$DEST"
+            codesign --force --sign - --options runtime "$DEST"
+          else
+            echo "warning: vendor/house-report missing — Send will stay dimmed"
+          fi
     info:
       path: Bookkeeper/Info.plist
       properties:
         # The version lives HERE, not in Info.plist: xcodegen regenerates that file from
         # this block on every `xcodegen generate`, so an edit made to the plist directly
         # is silently reverted the next time the project is generated.
-        CFBundleShortVersionString: "2.0.22"
-        CFBundleVersion: "58"
+        CFBundleShortVersionString: "2.0.23"
+        CFBundleVersion: "59"
         CFBundleDisplayName: Bookkeeper
         LSMinimumSystemVersion: "14.0"
         NSHumanReadableCopyright: "House of Helios"
