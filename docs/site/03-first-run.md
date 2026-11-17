@@ -5,8 +5,6 @@ Here is what happens the first time you open Bookkeeper.
 1. **A beat of the mark.** The window is see-through for a few seconds while a ring draws itself around the Bookkeeper mark. It is not loading anything; it is the old-fashioned way of saying hello.
 2. **The landing.** The name, big, and three doors beneath it.
 
-![The landing screen: Banking, Crypto and Stocks](img/landing.png)
-
 - **Banking** opens the spending side. See [Spending](05-spending.md).
 - **Crypto** opens your holdings. See [Holdings](04-holdings.md).
 - **Stocks** is dimmed and says "Coming soon". It does not open.
