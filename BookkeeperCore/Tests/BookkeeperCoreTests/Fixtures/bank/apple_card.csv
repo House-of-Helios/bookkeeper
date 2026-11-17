@@ -1,0 +1,358 @@
+Transaction Date,Clearing Date,Description,Merchant,Category,Type,Amount (USD),Purchased By
+10/29/2026,10/30/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.00,R. Quill
+10/28/2026,10/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-202.44,R. Quill
+10/27/2026,10/28/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.50,R. Quill
+10/27/2026,10/28/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/24/2026,10/25/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+10/23/2026,10/24/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,2.75,R. Quill
+10/23/2026,10/24/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,7.25,R. Quill
+10/22/2026,10/23/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/17/2026,10/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+10/10/2026,10/11/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,39.50,R. Quill
+10/07/2026,10/08/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+10/06/2026,10/07/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,4.75,R. Quill
+10/06/2026,10/07/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/05/2026,10/06/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,16.25,R. Quill
+10/04/2026,10/05/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+10/04/2026,10/05/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.25,R. Quill
+10/03/2026,10/04/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.25,R. Quill
+10/01/2026,10/02/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,7.75,R. Quill
+10/01/2026,10/02/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,30.25,R. Quill
+09/30/2026,10/01/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+09/28/2026,09/29/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,6.50,R. Quill
+09/28/2026,09/29/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.50,R. Quill
+09/28/2026,09/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-184.69,R. Quill
+09/25/2026,09/26/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+09/22/2026,09/23/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.75,R. Quill
+09/22/2026,09/23/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,8.00,R. Quill
+09/20/2026,09/21/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+09/17/2026,09/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+09/16/2026,09/17/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/14/2026,09/15/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.50,R. Quill
+09/13/2026,09/14/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,15.75,R. Quill
+09/11/2026,09/12/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,26.50,R. Quill
+09/10/2026,09/11/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,21.00,R. Quill
+09/10/2026,09/11/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.00,R. Quill
+09/08/2026,09/09/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/07/2026,09/08/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/06/2026,09/07/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,9.00,R. Quill
+09/05/2026,09/06/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,41.25,R. Quill
+09/03/2026,09/04/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,15.75,R. Quill
+08/30/2026,08/31/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,17.50,R. Quill
+08/30/2026,08/31/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+08/30/2026,08/31/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+08/28/2026,08/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-192.44,R. Quill
+08/22/2026,08/23/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,27.25,R. Quill
+08/21/2026,08/22/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,10.25,R. Quill
+08/19/2026,08/20/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+08/17/2026,08/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+08/16/2026,08/17/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+08/16/2026,08/17/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+08/16/2026,08/17/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,28.75,R. Quill
+08/14/2026,08/15/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+08/13/2026,08/14/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.25,R. Quill
+08/12/2026,08/13/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+08/11/2026,08/12/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,16.50,R. Quill
+08/10/2026,08/11/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+08/05/2026,08/06/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.00,R. Quill
+08/03/2026,08/04/2026,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,12.75,R. Quill
+08/03/2026,08/04/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.25,R. Quill
+07/31/2026,08/01/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/31/2026,08/01/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,7.75,R. Quill
+07/30/2026,07/31/2026,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,11.75,R. Quill
+07/30/2026,07/31/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.75,R. Quill
+07/28/2026,07/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-187.69,R. Quill
+07/24/2026,07/25/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+07/24/2026,07/25/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.75,R. Quill
+07/22/2026,07/23/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.00,R. Quill
+07/20/2026,07/21/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,14.75,R. Quill
+07/20/2026,07/21/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.00,R. Quill
+07/17/2026,07/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+07/16/2026,07/17/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+07/13/2026,07/14/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.25,R. Quill
+07/11/2026,07/12/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,24.75,R. Quill
+07/10/2026,07/11/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,31.25,R. Quill
+07/09/2026,07/10/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,6.00,R. Quill
+07/05/2026,07/06/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,25.25,R. Quill
+07/04/2026,07/05/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,8.50,R. Quill
+07/04/2026,07/05/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/04/2026,07/05/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/03/2026,07/04/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+06/29/2026,06/30/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.00,R. Quill
+06/28/2026,06/29/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,34.00,R. Quill
+06/28/2026,06/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-179.94,R. Quill
+06/26/2026,06/27/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/25/2026,06/26/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/25/2026,06/26/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,10.75,R. Quill
+06/24/2026,06/25/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.25,R. Quill
+06/24/2026,06/25/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/23/2026,06/24/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+06/22/2026,06/23/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,14.50,R. Quill
+06/21/2026,06/22/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,18.00,R. Quill
+06/21/2026,06/22/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+06/17/2026,06/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+06/16/2026,06/17/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,15.75,R. Quill
+06/14/2026,06/15/2026,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+06/11/2026,06/12/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.75,R. Quill
+06/08/2026,06/09/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.00,R. Quill
+06/08/2026,06/09/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,2.50,R. Quill
+06/03/2026,06/04/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,13.75,R. Quill
+06/03/2026,06/04/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,8.75,R. Quill
+05/31/2026,06/01/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,16.00,R. Quill
+05/31/2026,06/01/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.00,R. Quill
+05/30/2026,05/31/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,39.75,R. Quill
+05/28/2026,05/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-176.44,R. Quill
+05/24/2026,05/25/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.25,R. Quill
+05/22/2026,05/23/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,12.75,R. Quill
+05/21/2026,05/22/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/18/2026,05/19/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+05/17/2026,05/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+05/16/2026,05/17/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,8.50,R. Quill
+05/15/2026,05/16/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.00,R. Quill
+05/15/2026,05/16/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,17.25,R. Quill
+05/10/2026,05/11/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/09/2026,05/10/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.75,R. Quill
+05/08/2026,05/09/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.50,R. Quill
+05/07/2026,05/08/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,12.50,R. Quill
+05/07/2026,05/08/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.75,R. Quill
+05/06/2026,05/07/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.50,R. Quill
+05/02/2026,05/03/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.75,R. Quill
+05/02/2026,05/03/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/01/2026,05/02/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+04/28/2026,04/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-187.94,R. Quill
+04/26/2026,04/27/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.00,R. Quill
+04/24/2026,04/25/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,13.50,R. Quill
+04/22/2026,04/23/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,8.75,R. Quill
+04/20/2026,04/21/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.00,R. Quill
+04/19/2026,04/20/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+04/18/2026,04/19/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+04/17/2026,04/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+04/17/2026,04/18/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.00,R. Quill
+04/16/2026,04/17/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.00,R. Quill
+04/15/2026,04/16/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+04/14/2026,04/15/2026,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,15.00,R. Quill
+04/08/2026,04/09/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+04/07/2026,04/08/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,24.75,R. Quill
+04/04/2026,04/05/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,38.25,R. Quill
+04/01/2026,04/02/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.50,R. Quill
+04/01/2026,04/02/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,17.50,R. Quill
+04/01/2026,04/02/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+03/31/2026,04/01/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,29.00,R. Quill
+03/29/2026,03/30/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,13.00,R. Quill
+03/28/2026,03/29/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+03/28/2026,03/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-171.19,R. Quill
+03/23/2026,03/24/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.00,R. Quill
+03/20/2026,03/21/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+03/17/2026,03/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+03/17/2026,03/18/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,21.00,R. Quill
+03/17/2026,03/18/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,4.75,R. Quill
+03/17/2026,03/18/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+03/15/2026,03/16/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.75,R. Quill
+03/15/2026,03/16/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.50,R. Quill
+03/12/2026,03/13/2026,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,15.75,R. Quill
+03/11/2026,03/12/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.75,R. Quill
+03/11/2026,03/12/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.25,R. Quill
+03/09/2026,03/10/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,8.75,R. Quill
+03/08/2026,03/09/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+03/07/2026,03/08/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+03/05/2026,03/06/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.50,R. Quill
+03/02/2026,03/03/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,26.25,R. Quill
+03/02/2026,03/03/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+02/28/2026,03/01/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+02/28/2026,03/01/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+02/28/2026,02/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-191.94,R. Quill
+02/26/2026,02/27/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+02/21/2026,02/22/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,22.25,R. Quill
+02/19/2026,02/20/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.25,R. Quill
+02/17/2026,02/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+02/16/2026,02/17/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,34.25,R. Quill
+02/15/2026,02/16/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.75,R. Quill
+02/14/2026,02/15/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+02/13/2026,02/14/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+02/13/2026,02/14/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,12.50,R. Quill
+02/11/2026,02/12/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+02/10/2026,02/11/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.75,R. Quill
+02/10/2026,02/11/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+02/09/2026,02/10/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,5.25,R. Quill
+02/07/2026,02/08/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+02/07/2026,02/08/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,9.00,R. Quill
+02/02/2026,02/03/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.75,R. Quill
+01/29/2026,01/30/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.75,R. Quill
+01/28/2026,01/28/2026,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-216.19,R. Quill
+01/21/2026,01/22/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+01/21/2026,01/22/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,7.50,R. Quill
+01/20/2026,01/21/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,5.25,R. Quill
+01/18/2026,01/19/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+01/17/2026,01/18/2026,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+01/16/2026,01/17/2026,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,15.25,R. Quill
+01/16/2026,01/17/2026,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,15.75,R. Quill
+01/15/2026,01/16/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+01/13/2026,01/14/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+01/10/2026,01/11/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+01/08/2026,01/09/2026,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.50,R. Quill
+01/06/2026,01/07/2026,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,25.00,R. Quill
+01/06/2026,01/07/2026,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.00,R. Quill
+01/06/2026,01/07/2026,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+01/03/2026,01/04/2026,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,13.25,R. Quill
+01/02/2026,01/03/2026,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,23.75,R. Quill
+01/02/2026,01/03/2026,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+01/01/2026,01/02/2026,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,27.25,R. Quill
+12/30/2025,12/31/2025,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,26.00,R. Quill
+12/28/2025,12/29/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,9.00,R. Quill
+12/28/2025,12/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-169.44,R. Quill
+12/27/2025,12/28/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,32.75,R. Quill
+12/27/2025,12/28/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.75,R. Quill
+12/25/2025,12/26/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,8.00,R. Quill
+12/19/2025,12/20/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,15.50,R. Quill
+12/17/2025,12/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+12/17/2025,12/18/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,11.00,R. Quill
+12/15/2025,12/16/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,13.50,R. Quill
+12/15/2025,12/16/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.75,R. Quill
+12/15/2025,12/16/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+12/15/2025,12/16/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,24.50,R. Quill
+12/14/2025,12/15/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+12/14/2025,12/15/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,10.25,R. Quill
+12/11/2025,12/12/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+12/06/2025,12/07/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,11.75,R. Quill
+12/06/2025,12/07/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+12/04/2025,12/05/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+12/02/2025,12/03/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+12/02/2025,12/03/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.25,R. Quill
+12/01/2025,12/02/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+11/29/2025,11/30/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,12.00,R. Quill
+11/28/2025,11/29/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+11/28/2025,11/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-195.19,R. Quill
+11/23/2025,11/24/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+11/23/2025,11/24/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+11/19/2025,11/20/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.00,R. Quill
+11/18/2025,11/19/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,25.25,R. Quill
+11/17/2025,11/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+11/16/2025,11/17/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,7.50,R. Quill
+11/16/2025,11/17/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+11/16/2025,11/17/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,14.00,R. Quill
+11/16/2025,11/17/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,10.25,R. Quill
+11/13/2025,11/14/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.75,R. Quill
+11/13/2025,11/14/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+11/13/2025,11/14/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+11/12/2025,11/13/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.50,R. Quill
+11/10/2025,11/11/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+11/09/2025,11/10/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+11/07/2025,11/08/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,23.00,R. Quill
+10/28/2025,10/29/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.50,R. Quill
+10/28/2025,10/29/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.50,R. Quill
+10/28/2025,10/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-180.19,R. Quill
+10/28/2025,10/29/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,27.25,R. Quill
+10/25/2025,10/26/2025,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+10/24/2025,10/25/2025,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,28.75,R. Quill
+10/22/2025,10/23/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.75,R. Quill
+10/18/2025,10/19/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+10/17/2025,10/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+10/16/2025,10/17/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/13/2025,10/14/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,24.25,R. Quill
+10/13/2025,10/14/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,5.25,R. Quill
+10/12/2025,10/13/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/09/2025,10/10/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+10/06/2025,10/07/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,10.75,R. Quill
+10/05/2025,10/06/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,10.00,R. Quill
+10/03/2025,10/04/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,8.00,R. Quill
+10/01/2025,10/02/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,13.25,R. Quill
+10/01/2025,10/02/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+09/30/2025,10/01/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.25,R. Quill
+09/28/2025,09/29/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/28/2025,09/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-175.44,R. Quill
+09/27/2025,09/28/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/25/2025,09/26/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.25,R. Quill
+09/24/2025,09/25/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,33.75,R. Quill
+09/21/2025,09/22/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.25,R. Quill
+09/18/2025,09/19/2025,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,14.00,R. Quill
+09/18/2025,09/19/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,15.50,R. Quill
+09/18/2025,09/19/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,7.75,R. Quill
+09/17/2025,09/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+09/16/2025,09/17/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+09/15/2025,09/16/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.50,R. Quill
+09/12/2025,09/13/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.00,R. Quill
+09/11/2025,09/12/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.50,R. Quill
+09/08/2025,09/09/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,12.25,R. Quill
+09/08/2025,09/09/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+09/07/2025,09/08/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,3.75,R. Quill
+09/06/2025,09/07/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,21.25,R. Quill
+09/04/2025,09/05/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,10.25,R. Quill
+08/31/2025,09/01/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+08/28/2025,08/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-164.44,R. Quill
+08/27/2025,08/28/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.50,R. Quill
+08/26/2025,08/27/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.50,R. Quill
+08/25/2025,08/26/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,20.50,R. Quill
+08/24/2025,08/25/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+08/23/2025,08/24/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,15.50,R. Quill
+08/21/2025,08/22/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+08/17/2025,08/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+08/16/2025,08/17/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+08/13/2025,08/14/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.50,R. Quill
+08/10/2025,08/11/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,13.75,R. Quill
+08/08/2025,08/09/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,6.50,R. Quill
+08/08/2025,08/09/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+08/07/2025,08/08/2025,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,19.75,R. Quill
+08/07/2025,08/08/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.75,R. Quill
+08/03/2025,08/04/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,6.75,R. Quill
+08/02/2025,08/03/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,29.00,R. Quill
+08/01/2025,08/02/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/31/2025,08/01/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.50,R. Quill
+07/30/2025,07/31/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,18.75,R. Quill
+07/29/2025,07/30/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,3.75,R. Quill
+07/29/2025,07/30/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,9.50,R. Quill
+07/28/2025,07/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-173.69,R. Quill
+07/26/2025,07/27/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,14.00,R. Quill
+07/25/2025,07/26/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,27.75,R. Quill
+07/23/2025,07/24/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,7.75,R. Quill
+07/22/2025,07/23/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,3.75,R. Quill
+07/22/2025,07/23/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/21/2025,07/22/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/18/2025,07/19/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.25,R. Quill
+07/17/2025,07/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+07/17/2025,07/18/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.75,R. Quill
+07/14/2025,07/15/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.75,R. Quill
+07/12/2025,07/13/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,3.75,R. Quill
+07/07/2025,07/08/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+07/05/2025,07/06/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,14.00,R. Quill
+07/03/2025,07/04/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.00,R. Quill
+07/03/2025,07/04/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,15.50,R. Quill
+06/30/2025,07/01/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,8.00,R. Quill
+06/29/2025,06/30/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.00,R. Quill
+06/28/2025,06/28/2025,AUTOPAY PAYMENT,Apple Card,Payment,Payment,-192.19,R. Quill
+06/26/2025,06/27/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.50,R. Quill
+06/24/2025,06/25/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/21/2025,06/22/2025,SQ *MR KALE BKLYN,Mr. Kale,Restaurants,Purchase,12.75,R. Quill
+06/18/2025,06/19/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.25,R. Quill
+06/18/2025,06/19/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,8.50,R. Quill
+06/17/2025,06/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+06/14/2025,06/15/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,34.25,R. Quill
+06/10/2025,06/11/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.25,R. Quill
+06/09/2025,06/10/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,17.00,R. Quill
+06/08/2025,06/09/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+06/08/2025,06/09/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,6.75,R. Quill
+06/06/2025,06/07/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/06/2025,06/07/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+06/05/2025,06/06/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,14.50,R. Quill
+06/05/2025,06/06/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,15.50,R. Quill
+06/04/2025,06/05/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,4.50,R. Quill
+06/03/2025,06/04/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,3.75,R. Quill
+05/30/2025,05/31/2025,NINE DRAGONS NOODLE NEW YORK NY,Nine Dragons Noodle,Restaurants,Purchase,25.25,R. Quill
+05/28/2025,05/29/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,5.25,R. Quill
+05/25/2025,05/26/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,5.00,R. Quill
+05/23/2025,05/24/2025,MR KALE BROOKLYN NY 0042 POS,Mr. Kale,Restaurants,Purchase,13.75,R. Quill
+05/21/2025,05/22/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,8.50,R. Quill
+05/19/2025,05/20/2025,YELLOWBIRD RIDES *TRIP,Yellowbird Rides *Trip,Transportation,Purchase,23.75,R. Quill
+05/19/2025,05/20/2025,MR. KALE #2 BROOKLYN NY,Mr. Kale,Restaurants,Purchase,12.50,R. Quill
+05/19/2025,05/20/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/18/2025,05/19/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/17/2025,05/18/2025,SONGBIRD MUSIC 866-555-0100,Songbird Music 866-555-0100,Entertainment,Purchase,10.99,R. Quill
+05/15/2025,05/16/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,6.25,R. Quill
+05/12/2025,05/13/2025,LANTERN BEAN CAFE BKLYN,Lantern Bean Cafe,Restaurants,Purchase,7.50,R. Quill
+05/11/2025,05/12/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,16.00,R. Quill
+05/10/2025,05/11/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,7.00,R. Quill
+05/08/2025,05/09/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.00,R. Quill
+05/07/2025,05/08/2025,FERRANTE'S SLICE SHOP BROOKLYN,Ferrante'S Slice Shop,Restaurants,Purchase,14.25,R. Quill
+05/07/2025,05/08/2025,ATLANTIC TAQUERIA BROOKLYN NY,Atlantic Taqueria,Restaurants,Purchase,14.25,R. Quill
+05/03/2025,05/04/2025,GOWANUS GRIND COFFEE BROOKLYN NY,Gowanus Grind Coffee,Restaurants,Purchase,4.50,R. Quill
+05/03/2025,05/04/2025,CITY TRANSIT FARE NEW YORK,City Transit Fare,Transportation,Purchase,2.90,R. Quill
+05/01/2025,05/02/2025,BODEGA MOON DELI BROOKLYN,Bodega Moon Deli,Restaurants,Purchase,4.75,R. Quill

@@ -1,0 +1,7 @@
+Card,Transaction Date,Post Date,Description,Category,Type,Amount,Memo
+4417,03/14/2026,03/15/2026,"MR. KALE, BROOKLYN NY",Food & Drink,Sale,-13.25,
+4417,03/14/2026,03/16/2026,"BAR ""THE GOWANUS"" BROOKLYN",Food & Drink,Sale,-42.00,"split with A., B., and C."
+4417,03/13/2026,03/14/2026,"PROSPECT GREENS MARKET, INC.",Groceries,Sale,"-1,204.18",
+4417,03/12/2026,03/12/2026,FULTON STREET BOOKS,Shopping,Return,18.99,"returned ""Invisible Cities"", wrong edition"
+4417,03/11/2026,03/12/2026,SQ *MR KALE BKLYN,Food & Drink,Sale,-14.50,"line one
+line two"

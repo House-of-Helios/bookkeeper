@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+*.xcodeproj
+DerivedData/
+*.env
+.env*
+xcuserdata/
+BookkeeperCore/build/
+build/
+/build/
+dist/
+_Screenshots/
+.playwright-mcp/
+_DevData/
+vendor/

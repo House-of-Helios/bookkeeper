@@ -1,0 +1,59 @@
+name: Bookkeeper
+options:
+  bundleIdPrefix: com.houseofhelios
+  deploymentTarget:
+    macOS: "14.0"
+packages:
+  BookkeeperCore:
+    path: BookkeeperCore
+targets:
+  Bookkeeper:
+    type: application
+    platform: macOS
+    sources:
+      - path: Bookkeeper
+        excludes:
+          - Resources/Fonts/**
+          - Resources/Icons/**
+      - path: Bookkeeper/Resources/Fonts
+        type: folder
+      - path: Bookkeeper/Resources/Icons
+        type: folder
+    dependencies:
+      - package: BookkeeperCore
+    postBuildScripts:
+      # Tor: Arti rides inside the app, beside the main executable, signed ad hoc like it.
+      # `scripts/fetch-arti.sh` puts it in vendor/. A Release build without it fails —
+      # Tor is on by default, and an app that can't start it would just sit offline.
+      - name: Bundle Arti
+        basedOnDependencyAnalysis: false
+        script: |
+          SRC="$SRCROOT/vendor/arti"
+          DEST="$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/arti"
+          if [ -x "$SRC" ]; then
+            cp "$SRC" "$DEST" && chmod 755 "$DEST"
+            codesign --force --sign - --options runtime "$DEST"
+          elif [ "$CONFIGURATION" = "Release" ]; then
+            echo "error: vendor/arti missing — run scripts/fetch-arti.sh"; exit 1
+          else
+            echo "warning: vendor/arti missing — this Debug build has no Tor"
+          fi
+    info:
+      path: Bookkeeper/Info.plist
+      properties:
+        # The version lives HERE, not in Info.plist: xcodegen regenerates that file from
+        # this block on every `xcodegen generate`, so an edit made to the plist directly
+        # is silently reverted the next time the project is generated.
+        CFBundleShortVersionString: "2.0.22"
+        CFBundleVersion: "58"
+        CFBundleDisplayName: Bookkeeper
+        LSMinimumSystemVersion: "14.0"
+        NSHumanReadableCopyright: "House of Helios"
+        ATSApplicationFontsPath: Fonts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.houseofhelios.bookkeeper
+        GENERATE_INFOPLIST_FILE: NO
+        ENABLE_HARDENED_RUNTIME: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        SWIFT_VERSION: "5.9"

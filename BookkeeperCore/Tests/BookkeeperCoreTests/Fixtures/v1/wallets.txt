@@ -1,0 +1,14 @@
+Cold Vault			Monero
+Daily			
+Old Scanner	0x00000000000000000000000000000000000000a1	ethereum,base	
+#key	coingecko	CG-FAKE-0000000000000000
+#key	updateFolder	/Volumes/Shared/updates
+#manual	Cold Vault	XMR	monero	12.5
+#manual	Daily	USDC	usd-coin	1500.25	base	0x833589fcd6edb6e08f4c7c32d4f71b54bda02913	Base
+#manual	Daily	ETH	ethereum	0.75	arbitrum		Arbitrum
+#wmeta	Cold Vault	#C73E3A
+#wmeta	Daily	#2E5C6E
+#wpos	Cold Vault	120.0	80.0
+#wpos	Daily	540.5	80.0
+#worder	Daily,Cold Vault,Old Scanner
+#hide	base_0x00000000000000000000000000000000000000b2
