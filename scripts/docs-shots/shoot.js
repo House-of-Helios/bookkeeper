@@ -4,7 +4,7 @@
 // `Bookkeeper Dev.app --snapshot` with BOOKKEEPER_SNAPSHOT_LIGHT=1 instead.
 async (page) => {
   const ROOT = process.env.BOOKKEEPER_ROOT || process.cwd();
-  const jobs = [["open-anyway", 960, 620], ["privacy-map", 1200, 680]];
+  const jobs = [["open-anyway", 960, 620], ["privacy-map", 1200, 740]];
   // One page, resized per job: a fresh context with deviceScaleFactor tiled the shot.
   for (const [n, w, h] of jobs) {
     await page.setViewportSize({ width: w, height: h });

@@ -14,6 +14,7 @@ Every lookup goes through Tor, which is bundled inside the app ([Arti](https://g
 | `token-icons.llamao.fi`, `icons.llamao.fi` | Token logos | The tokens whose logos are fetched. |
 | `api.coingecko.com` | A few long-tail prices and logos. Your demo key is sent here only if you added one. | The few coins DefiLlama does not cover. |
 | `github.com` | The update feed, and the download when you install an update | That someone checked for or fetched a release. |
+| `nos.lol`, `relay.primal.net`, `relay.snort.social`, `nostr.mom` | A problem report, only when you press **Send** (arriving in a coming version; see below) | Nothing readable: the report is sealed so only the House can open it, from a one-time sender. |
 
 Prices refresh every 5 minutes while the app is open. Update checks are covered in [Updates](08-updates.md).
 
@@ -22,6 +23,15 @@ Prices refresh every 5 minutes while the app is open. Update checks are covered 
 - **Bank data.** Your CSVs, lines, names and rules stay on the Mac. Banking never goes online, and the app says so in Settings. Bookkeeper has no bank login to leak, because it never asks for one.
 - **Your wallets and amounts.** You type them in yourself; no address is looked up and nothing is sent.
 - **Keys.** Bookkeeper never asks for a wallet key.
+
+## Problem reports
+
+Bookkeeper keeps no automatic error log that leaves the Mac. Nothing about a crash or a problem is sent unless you send it.
+
+- **When.** Settings has **Send feedback…**. If Bookkeeper closed unexpectedly, it offers the same sheet the next time it opens. Close the sheet and nothing happens.
+- **What it holds.** The Bookkeeper version, the macOS version, the kind of Mac (Apple silicon or Intel), the look and whether Tor is on, how many wallets and banks you have (counts only), the last 40 lines of Bookkeeper's own log, and what you write. Before you see it, Bookkeeper takes out home folder names, wallet addresses, amounts, IP addresses, e-mail addresses and the names of your own machines. Bank lines are never put in at all.
+- **You see all of it.** The whole report is shown before anything happens, and you can edit or delete any of it.
+- **Where it goes.** **Copy** and **Save…** keep it with you, to pass on however you like. **Send** (arriving in a coming version; until then it is dimmed) seals the report so only the House of Helios can read it, signs it with a key made for that one report, and hands it through Tor to the four public Nostr relays above. The relays hold sealed text for 30 days. No account, no e-mail, no server of the House's own, and your IP address is never seen.
 
 ## No fallback to direct
 
