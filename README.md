@@ -1,6 +1,6 @@
 # Bookkeeper
 
-A quiet ledger for a Mac: what you hold in crypto, and where your money goes.
+**Local-first accounting.** What you hold in crypto, and where your money goes, kept on your Mac.
 
 Bookkeeper keeps your holdings without ever touching a wallet key, reads the CSV your bank
 already lets you export, and draws the answers as rings you can touch. It makes no

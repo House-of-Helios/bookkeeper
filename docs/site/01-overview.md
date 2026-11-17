@@ -1,6 +1,6 @@
 # Overview
 
-Bookkeeper is a quiet ledger for a Mac. It keeps two things: what you hold in crypto, and where your money goes.
+**Local-first accounting.** Bookkeeper keeps two things on your Mac: what you hold in crypto, and where your money goes.
 
 ![Bookkeeper's Banking screen: spending drawn as rings, with the latest lines beside them](img/spending.png)
 
