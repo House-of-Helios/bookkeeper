@@ -29,4 +29,4 @@ You only have to do this once.
 
 The System Settings way works on macOS 14 too.
 
-After that, it opens like any other app. Later versions arrive from inside the app; see [Updates](07-updates.md).
+After that, it opens like any other app. Later versions arrive from inside the app; see [Updates](08-updates.md).

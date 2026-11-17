@@ -1,6 +1,6 @@
 # Privacy
 
-Bookkeeper has no account, no analytics, no ads and no AI. This page lists everything that leaves your Mac, and says what does not.
+Bookkeeper has no account, no analytics, no ads and no AI. It never connects to your bank. This page lists everything that leaves your Mac, and says what does not.
 
 ![What leaves your Mac and what never does: Banking stays on the Mac; only coin names go out, through Tor, to four named hosts](img/privacy-map.png)
 
@@ -15,11 +15,11 @@ Every lookup goes through Tor, which is bundled inside the app ([Arti](https://g
 | `api.coingecko.com` | A few long-tail prices and logos. Your demo key is sent here only if you added one. | The few coins DefiLlama does not cover. |
 | `github.com` | The update feed, and the download when you install an update | That someone checked for or fetched a release. |
 
-Prices refresh every 5 minutes while the app is open. Update checks are covered in [Updates](07-updates.md).
+Prices refresh every 5 minutes while the app is open. Update checks are covered in [Updates](08-updates.md).
 
-## What never leaves
+## What stays on the Mac
 
-- **Bank data.** Your CSVs, lines, names and rules stay on the Mac. Banking never goes online, and the app says so in Settings.
+- **Bank data.** Your CSVs, lines, names and rules stay on the Mac. Banking never goes online, and the app says so in Settings. Bookkeeper has no bank login to leak, because it never asks for one.
 - **Your wallets and amounts.** You type them in yourself; no address is looked up and nothing is sent.
 - **Keys.** Bookkeeper never asks for a wallet key.
 

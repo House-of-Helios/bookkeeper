@@ -1,4 +1,4 @@
-# Holdings (Crypto)
+# Crypto
 
 Open **Crypto** on the landing screen. Bookkeeper keeps a list of what you say you hold, prices it, and draws it as rings.
 
@@ -39,7 +39,7 @@ If the sites cannot be reached at that moment, the box says so ("Couldn't reach 
 - Prices and 24-hour changes come from DefiLlama. No key is needed.
 - Logos come from public icon registries.
 - Prices refresh every 5 minutes while the app is open.
-- Everything is fetched through Tor. See [Privacy](06-privacy.md).
+- Everything is fetched through Tor. See [Privacy](07-privacy.md).
 
 ## A free CoinGecko key, if you want it
 
