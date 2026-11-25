@@ -95,6 +95,7 @@ final class TorService {
             try configText.write(to: config, atomically: true, encoding: .utf8)
             try FileManager.default.setAttributes([.posixPermissions: 0o600], ofItemAtPath: config.path)
             stopStale()
+            TorCache.trim(dir.appendingPathComponent("cache"))   // bound the network-map pile before Arti opens it
 
             let p = Process()
             p.executableURL = bin

@@ -2,10 +2,10 @@
 
 Bookkeeper needs macOS 14 or newer, on a Mac with Apple silicon (M1 or later). It does not run on Intel Macs.
 
-1. Download `Bookkeeper.zip` from the [latest release](https://github.com/House-of-Helios/bookkeeper/releases/latest) on GitHub.
-2. Double-click the zip to unpack it. You get `Bookkeeper.app`.
-3. Drag `Bookkeeper.app` into your Applications folder.
-4. Open it. The first time, macOS will hesitate. See below.
+1. Download [`Bookkeeper.dmg`](https://github.com/House-of-Helios/bookkeeper/releases/latest/download/Bookkeeper.dmg), the latest release on GitHub.
+2. Double-click it. A window opens with Bookkeeper and your Applications folder side by side.
+3. Drag Bookkeeper onto Applications, then eject the disk.
+4. Open Bookkeeper from Applications. The first time, macOS will hesitate. See below.
 
 ## Why macOS hesitates
 
