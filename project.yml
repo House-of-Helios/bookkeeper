@@ -57,8 +57,8 @@ targets:
         # The version lives HERE, not in Info.plist: xcodegen regenerates that file from
         # this block on every `xcodegen generate`, so an edit made to the plist directly
         # is silently reverted the next time the project is generated.
-        CFBundleShortVersionString: "2.0.23"
-        CFBundleVersion: "59"
+        CFBundleShortVersionString: "2.0.24"
+        CFBundleVersion: "60"
         CFBundleDisplayName: Bookkeeper
         LSMinimumSystemVersion: "14.0"
         NSHumanReadableCopyright: "House of Helios"

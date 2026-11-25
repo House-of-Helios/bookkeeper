@@ -1,6 +1,7 @@
 #!/bin/bash
 # Publish a release to GitHub (House-of-Helios/bookkeeper): the public way updates travel.
-# Every Mac reads `appcast.json` from the latest release and installs `Bookkeeper.zip`
+# People download `Bookkeeper.dmg` (drag to Applications). Every installed app reads
+# `appcast.json` from the latest release and installs `Bookkeeper.zip`
 # only if its SHA-256 matches and the signature verifies (ReleaseFeed.swift). This is the
 # only way the app updates.
 #
@@ -40,6 +41,13 @@ bash scripts/rehearse-update.sh "$APP" || { echo "❌ update rehearsal failed �
 rm -rf "$OUT"; mkdir -p "$OUT"
 ditto -c -k --sequesterRsrc --keepParent "$APP" "$OUT/Bookkeeper.zip"
 (cd "$OUT" && shasum -a 256 Bookkeeper.zip > Bookkeeper.zip.sha256)
+# For people: a disk image with the app and an Applications shortcut to drag it onto.
+# The DMG stays unsigned (Archivist's lesson): Gatekeeper rejects a disk image signed by an
+# identity Apple doesn't know, but mounts an unsigned one. Only the app inside is signed.
+STAGE=$(mktemp -d); cp -R "$APP" "$STAGE/"; ln -s /Applications "$STAGE/Applications"
+hdiutil create -volname "Bookkeeper" -srcfolder "$STAGE" -ov -format UDZO "$OUT/Bookkeeper.dmg" >/dev/null
+rm -rf "$STAGE"
+(cd "$OUT" && shasum -a 256 Bookkeeper.dmg > Bookkeeper.dmg.sha256)
 SHA=$(cut -d' ' -f1 "$OUT/Bookkeeper.zip.sha256")
 SIG=$(printf '%s\n' "$PRIV" | swift scripts/release-sign.swift sign "$VERSION" "$SHA")
 # The key the installed apps trust is the one baked into ReleaseFeed.swift. If the Keychain
@@ -68,17 +76,23 @@ bash scripts/publish.sh "Bookkeeper $VERSION — $NOTES"
 git tag -a "$TAG" -m "Bookkeeper $VERSION" public && git push -q origin "$TAG"
 
 echo "📦 release $TAG"
-gh release create "$TAG" -R "$REPO" --title "Bookkeeper $VERSION" --notes "$NOTES" \
-  "$OUT/Bookkeeper.zip" "$OUT/Bookkeeper.zip.sha256" "$OUT/appcast.json"
+gh release create "$TAG" -R "$REPO" --title "Bookkeeper $VERSION" --notes "$NOTES
+
+**Install:** download **Bookkeeper.dmg**, open it, drag Bookkeeper onto Applications. First open: see [Install](https://github.com/$REPO#install)." \
+  "$OUT/Bookkeeper.dmg" "$OUT/Bookkeeper.dmg.sha256" "$OUT/Bookkeeper.zip" "$OUT/Bookkeeper.zip.sha256" "$OUT/appcast.json"
 
 # Verify by download, as a user's app would get it: hash, signature, code signature, version.
 CHECK=$(mktemp -d); trap 'rm -rf "$CHECK"' EXIT
 gh release download "$TAG" -R "$REPO" --dir "$CHECK"
-(cd "$CHECK" && shasum -a 256 -c Bookkeeper.zip.sha256 >/dev/null) || { echo "❌ downloaded zip doesn't match its checksum"; exit 1; }
+(cd "$CHECK" && shasum -a 256 -c Bookkeeper.zip.sha256 >/dev/null && shasum -a 256 -c Bookkeeper.dmg.sha256 >/dev/null) \
+  || { echo "❌ a download doesn't match its checksum"; exit 1; }
+hdiutil attach -nobrowse -readonly -mountpoint "$CHECK/dmg" "$CHECK/Bookkeeper.dmg" >/dev/null && [ -d "$CHECK/dmg/Bookkeeper.app" ] && [ -L "$CHECK/dmg/Applications" ] \
+  || { echo "❌ the DMG doesn't hold Bookkeeper.app and the Applications shortcut"; exit 1; }
+hdiutil detach "$CHECK/dmg" >/dev/null
 swift scripts/release-sign.swift verify "$PUB" "$VERSION" "$SHA" "$SIG" >/dev/null || { echo "❌ downloaded feed's signature doesn't verify"; exit 1; }
 ditto -x -k "$CHECK/Bookkeeper.zip" "$CHECK/app"
 codesign --verify --strict --deep -R '=identifier "com.houseofhelios.bookkeeper"' "$CHECK/app/Bookkeeper.app" || { echo "❌ downloaded app's code signature fails"; exit 1; }
 [ "$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "$CHECK/app/Bookkeeper.app/Contents/Info.plist")" = "$VERSION" ] \
   || { echo "❌ downloaded app is not $VERSION"; exit 1; }
-echo "🔍 verified by download: checksum, signature, code signature, version"
+echo "🔍 verified by download: checksums, DMG contents, signature, code signature, version"
 echo "✅ released $TAG — https://github.com/$REPO/releases/tag/$TAG"

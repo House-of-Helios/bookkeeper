@@ -31,8 +31,8 @@ Made by the House of Helios. GPL-3.0.
 
 ## Install
 
-1. Download `Bookkeeper.zip` from the latest [release](../../releases/latest) and unzip it.
-2. Move `Bookkeeper.app` to Applications.
+1. Download [`Bookkeeper.dmg`](../../releases/latest/download/Bookkeeper.dmg) and open it.
+2. Drag Bookkeeper onto the Applications shortcut beside it.
 3. The app is signed ad hoc, not by a paid Apple developer account, so the first open
    needs one extra step: try to open it once, then System Settings → Privacy & Security →
    **Open Anyway**. (On macOS 14, right-click the app → **Open** → **Open** also works.)
